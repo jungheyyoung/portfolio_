@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/23702cff2c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">INTRO</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#profile">PROFILE</a></li>
+                    <li><a href="#skill">SKILL</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">INTRO</a>
+                    <a href="#about">ABOUT</a>
+                    <a href="#profile">PROFILE</a>
+                    <a href="#skill">SKILL</a>
+                    <a href="#portfolio">PORTFOLIO</a>
+                    <a href="#contact">CONTACT</a>
+                </div>
+                <span class="openNav" onclick="openNav()">&#9776; </span>
+            </nav>
+            <h1>PORTFOLIO</h1>
+            <h2>코딩하는 디자이너 정혜영입니다</h2>
+        </header>
+
+        <section class="about" id="about">
+            <h2>ABOUT ME</h2>
+            <div class="about-content">
+                <div class="growth">
+                    <div class="growth-img"><img src="images/growth.jpg" alt="성장"></div>
+                    <div class="about-icon">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-regular fa-comment"></i>
+                        <i class="fa-regular fa-paper-plane"></i>
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <i class="fa-regular fa-bookmark"></i>
+                    </div>
+                    <p>
+                        #배움 #성장 <br>
+                        끊임없이 배우고 성장합니다
+                    </p>
+                </div>
+                <div class="conversation">
+                    <div class="conversation-img"><img src="images/conversation.jpg" alt="소통"></div>
+                    <div class="about-icon">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-regular fa-comment"></i>
+                        <i class="fa-regular fa-paper-plane"></i>
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <i class="fa-regular fa-bookmark"></i>
+                    </div>
+                    <p>
+                        #소통 #존중 <br>
+                        상대방을 존중하며 소통합니다
+                    </p>
+                </div>
+                <div class="conversation">
+                    <figure><img src="images/coding.JPG" alt="코딩"></figure>
+                    <div class="about-icon">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-regular fa-comment"></i>
+                        <i class="fa-regular fa-paper-plane"></i>
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <i class="fa-regular fa-bookmark"></i>
+                    </div>
+                    <p>
+                        #코딩 #디자인 <br>
+                        코딩과 디자인을 좋아합니다
+                    </p>
+                </div>
+            </div>
+            <br>
+            
+        </section>
+
+        <section class="profile " id="profile">
+            <h2>PROFILE</h2>
+            <div class="profile-content">
+                <div><img src="./images/profile.jpg" alt=""></div>
+                <div class="profile-career">
+                    <div class="profile-txt">
+                        <div class="center">
+                            <h5>PROFILE</h5>
+                            <P> NAME : 정혜영 <br>
+                                Birth : 1995. 05. 13 <br>
+                                Phone : 010-3306-6892 <br>
+                                Mail : jjhhoo1995@naver.com
+                            </P>
+                        </div>
+                    </div>
+                    <div class="career center">
+                        <h5>Career</h5>
+                        <p>
+                            2023.1 ~ 2023.7 쇼엠 (웹퍼블리셔 )
+                        </p>
+                    </div>
+              </div>
+              <div class="education-cz">  
+                <div class="education-txt">
+                    <div class="center">
+                        <h5>EDUCATION</h5>
+                        <P>
+                            2023 리메인 커리어 수료 (ux/ui 디자인) <br>
+                            2023 SBS컴퓨터아카데미학원 수료 (포트폴리오) <br>
+                            2022 그린컴퓨터아트학원 수료 (포토샵, 일러스트) <br>
+                            2022 코리아IT아카데미학원 수료 (프로트엔드) <br>
+                            2019 가톨릭대(성심) 아동학 / 일어일본문화 졸업
+                        </P>
+                    </div>
+                </div>
+                <div class="center">
+                    <h5>certificate</h5>
+                    <p>
+                        2021 운전면허 2종 <br>
+                        2019 사회복지사 2급 <br>
+                        2019 보육교사 2급
+                    </p>
+                </div>
+            </div> 
+        </div>
+        </section>
+
+        <section class="skill " id="skill">
+            <h2>SKILL ABILITY</h2>
+            <div class="skill-icon">
+                <div class="icon">
+                    <img src="images/ps.png" alt="포토샵">
+                    <div class="txt counter" data-count="90">0</div>
+                </div>
+
+                <div>
+                    <img src="images/ai.png" alt="일러스트">
+                    <div class="txt counter" data-count="90">0</div>
+                </div>
+                <div>
+                    <img src="images/html.png" alt="html">
+                    <div class="txt counter" data-count="80">0</div>
+                </div>
+                <div class="icon css">
+                    <img src="images/css.png" alt="css">
+                    <div class="txt counter" data-count="80">0</div>
+                </div>
+                <div class="icon">
+                    <img src="images/js.png" alt="js">
+                    <div class="txt counter" data-count="60">0</div>
+                </div>
+                <div>
+                    <img src="images/react.png" alt="react">
+                    <div class="txt counter" data-count="50">0</div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="portfolio " id="portfolio">
+            <h2>PORTFOLIO</h2>
+            <div class="portfolio-content">
+                <img src="images/portfolio.png" alt="">
+                <div class="portfolio-txt">
+                    <h3>연수도서관 리뉴얼</h3>
+                    <div>시민과 함께 성장하는 책 읽는 연수</div> <br>
+                    <p>
+                        <b>TYPE</b> 반응형 웹 <br>
+                        <b>TOOL</b> Figma, Visual studio <br>
+                        <b>WORK</b> 100% (개인작업) <br>
+                        <b>Period</b> 22. 12 - 23. 01
+                    </p>
+                    <br>
+                    <button><a href="https://jungheyyoung.github.io/Yeonsu-library-portfolio/">website</a></button>
+                    <button><a href="https://github.com/jungheyyoung/Yeonsu-library-portfolio/blob/main/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4.png">explain</a></button>
+                </div>
+                
+            </div>
+        </section>
+
+        <footer id="contact">
+            <h2>끝까지 봐주셔서 감사합니다</h2>
+            <div class="contact">
+                <P>
+                    <i class="fa-regular fa-user"></i> 정혜영 <br>
+                    <i class="fa-solid fa-phone"></i>010-3306-6892 <br>
+                    <i class="fa-regular fa-envelope"></i> jjhhoo1995@naver.com
+                </P>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

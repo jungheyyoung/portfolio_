@@ -1,0 +1,227 @@
+@media all and (min-width:768px) and (max-width:1200px) {
+
+    section {
+        padding: 0 32px;
+        box-sizing: border-box;
+    }
+
+    header h1 {
+        font-size: 80px;
+        text-align: center;
+    }
+
+    .about {
+        padding: 32px;
+    }
+
+    .about h2 {
+        font-size: 30px;
+    }
+
+    .growth img,
+    .conversation img {
+        width: auto;
+
+    }
+
+
+    .profile {
+
+        height: auto;
+        padding: 32px;
+    }
+
+    .profile h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .skill {
+        height: auto;
+        padding: 32px;
+
+    }
+
+    .skill h2 {
+        font-size: 30px;
+    }
+
+    .skill-icon {
+        flex-wrap: wrap;
+    }
+
+    .skill-icon .txt {
+        font-size: 30px;
+    }
+
+    .portfolio {
+        padding: 32px;
+    }
+
+    .portfolio h2 {
+        font-size: 30px;
+    }
+
+    .btn .prev {
+        position: absolute;
+        right: 100%;
+
+    }
+
+    .btn .next {
+        position: absolute;
+        left: 100%;
+    }
+}
+
+
+
+@media screen and (max-width:767px) {
+
+    section {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header h2 {
+        font-size: 20px;
+    }
+
+    header nav ul {
+        display: none;
+    }
+
+    .openNav {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        color: rgb(224, 215, 215);
+
+    }
+
+    .sidenav {
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+
+    .about {
+        height: auto;
+        padding: 20px;
+    }
+
+    .about h2 {
+        font-size: 30px;
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .introduce {
+        padding: 10px;
+    }
+
+    .profile {
+        height: auto;
+        padding: 20px;
+    }
+
+    .profile h2 {
+        font-size: 30px;
+    }
+
+    .profile-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .profile-txt {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        gap: 20px;
+    }
+
+    .education-txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .skill {
+        height: auto;
+        padding: 20px;
+    }
+
+    .skill h2 {
+        font-size: 30px;
+    }
+
+    .skill-icon {
+        flex-wrap: wrap;
+    }
+
+    .skill-icon .txt {
+        font-size: 30px;
+    }
+
+    .portfolio {
+        height: auto;
+        padding: 20px;
+    }
+
+    .portfolio h2 {
+        font-size: 30px;
+    }
+
+    .portfolio-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn .prev {
+        top: 20%;
+        right: 100%
+    }
+
+    .btn .next {
+        top: 20%;
+        left: 100%;
+    }
+
+    .contact {
+        padding: 0 20px;
+    }
+
+    .contact p {
+        color:#fff;
+        font-size: 24px;
+    }
+
+    .fa-user,
+    .fa-phone,
+    .fa-envelope {
+        color: #fff;
+    }
+    .center{
+        text-align: center;
+    }
+    .education-cz {
+        margin: 0;
+        border: none;
+    }
+}

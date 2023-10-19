@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #454545; 
+}
+body {
+    position: relative;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+   
+    
+}
+
+img {
+    border: 0;
+    
+}
+
+header {
+    background-image: url(images/bg05.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+header nav {
+    border-bottom: 1px solid #ffffff;
+    /* position: fixed; */
+    right: 0;
+    
+
+}
+header nav ul {
+    display: flex;
+    justify-content: end;
+    /* padding: 30px; */
+    /* position: fixed; */
+}
+
+header nav ul li {
+    padding: 20px;
+}
+header nav ul li a{
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    
+}
+header nav ul li:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+header h1 {
+    color:#fff;
+    text-align: center;
+    font-size: 130px;
+    padding: 50px; 
+}
+header h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    
+}
+.main_intro {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+.openNav {
+    cursor: pointer;
+    font-size: 30px;
+    color: #fff;
+    display: none;
+    float: right;
+    padding: 20px;
+
+}
+
+
+.sidenav {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 2;
+    top:0;
+    right: 0;
+    background-color: #fff;
+    transition: 2s;
+    transform: translate(100%);
+    padding: 80px;
+    
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    color: #787878;
+    display: block;
+    transition: 0.5s;
+    font-weight: 800;
+}
+
+.sidenav a:hover {
+    color: plum;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.about {
+    height: 100vh;
+    background-color: #EBF4FF;
+    padding: 40px;
+    
+}
+.about h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #333D6F;
+}
+.introduce {
+    text-align: center;
+    font-size: 20px;
+   
+}
+.about-content {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 50px;
+    
+}
+.growth img, .conversation img  {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    /* border: 1px solid #000; */
+    
+  
+}
+.growth, .conversation {
+    width: 250px;
+    height: 347px;
+    background-color: #fff;
+    border: 4px solid gray;
+}
+
+.growth p, .conversation p {
+    padding: 0 25px;
+    font-size: 15px;
+}
+.fa-heart {
+    color: red;
+}
+.about-icon  {
+    padding:  0 30px; 
+    /* display: flex; */
+    /* justify-content: center;   */
+}
+.fa-heart .fa-comment .fa-paper-plane {
+    float: left;
+}
+.fa-bookmark {
+    float: right;
+}
+.fa-ellipsis {
+    margin-left: 50px;
+    color: #787878;
+}
+
+
+.profile {
+    height: 100vh;
+    padding: 40px;
+    /* background-color: #EBF4FF; */
+}
+.profile h2 {
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+    color: #333D6F;
+}
+.profile-content {
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+    margin-top: 50px;
+}
+.profile h5 {
+    padding: 20px 0;
+    font-size: 20px;
+}
+.profile img, .study img {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+.education-cz {
+    padding: 0 24px;
+    border-left: 2px dashed grey;
+}
+.work img {
+   width: 300px;
+   height: 300px;
+   /* border: 3px solid orange; */
+   /* border: 3px solid orange; */
+   border-radius: 20px;
+}
+.education-txt {
+   
+   
+}
+.profile-txt {
+    
+    
+    /* border: 1px solid #000; */
+    /* padding: 20px; */
+   
+}
+.profile-content {
+    
+}
+.profile-education {
+    padding: 30x;
+}
+.profile-txt h5, .education-txt h5 {
+    font-size: 20px;
+}
+.skill {
+    height: 100vh;
+    background-color: #333D6F;
+    padding: 40px;
+       
+}
+.skill h2 {
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    font-size: 40px;
+}
+.skill img {
+    width: 100px;
+    height: 100px;
+}
+.icon img {
+    width: 110px;
+    height: 110px;
+}
+.css img {
+    width: 120px;
+    height: 110px;
+}
+
+.skill-icon {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding: 100px;
+}
+.skill-icon .txt {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    padding: 0 10px
+}
+
+.txt.counter::after {
+    content: '%';
+}
+.portfolio {
+    /* width: 100vw; */
+    height: 100vh;
+    background-color: #EBF4FF; 
+    padding: 40px; 
+}
+.portfolio h2 {
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    color: #333D6F;
+}
+.portfolio-content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    /* align-items: center; */
+    padding: 20px;
+    
+}
+.portfolio img {
+    width: 300px;
+    height: 300px;
+    
+}
+.portfolio-txt button  {
+    border: 1px solid #000;
+    border-radius: 50px;
+    background-color: #9e9ac9; 
+    padding: 10px;
+    width: 100px;  
+}
+.portfolio button a {
+    color:#fff;
+    font-weight: bold;
+}
+
+.portfolio-content  {
+    position: relative;
+}
+.btn img {
+    width: 20px;
+    height: 20px;
+    
+}
+.btn .prev {
+    position: absolute;
+    top: 50%;
+    right: 80%;   
+}
+.btn .next {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+}
+footer {
+    background-image: url(images/bg05.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 30px;
+}
+footer h2 {
+    color: #fff;
+    padding:50px;
+    text-align: center;
+}
+.contact span {
+    color: #fff;
+    text-align: center;
+}
+ .contact p {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+   
+}
+
+.fa-user, .fa-phone, .fa-envelope {
+    color: #fff;
+    padding: 10px;
+}
+.portfolio-txt h3 {
+    font-size: 25px;
+}
+.portfolio-txt {
+    line-height: 2.1em;
+}
+.career {margin-top: 27px;}
+
+
+
+
